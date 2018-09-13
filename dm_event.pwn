@@ -6,7 +6,7 @@
 
 /* definations (you can change) */
 #define m_color 	"{bba7db}"
-#define MAX_USERS   10
+#define MAX_USERS   10 // max players allowed to join
 
 /* script variables */
 new bool:dmIsOpen=false, dmcount=0, bool:dmEventJoinable=false, bool:IsInDMEvent[MAX_PLAYERS], EventTimer;
